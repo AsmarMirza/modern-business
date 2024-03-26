@@ -1,0 +1,229 @@
+// Pricing
+.pricing{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(248, 249, 250,1);
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+.pricing__title{
+    margin-top: 100px;
+}
+.pricing__heading{
+    font-size: 45px;
+    font-weight: bold;
+}
+.pricing__content{
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #6c757d;
+}
+.pricing__card__inside{
+border: 1px solid rgba(0, 0, 0,0.17);
+max-width: 320px;
+width: 320px;
+padding: 40px 0px 40px 60px;
+border-radius: 7px;
+background-color: white;
+}
+.pricing__card{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    max-width: 1100px;
+    display: flex;
+    gap: 50px;
+}
+.pricing__mon{
+    display: flex;
+}
+.pricing__mon__ins{
+    font-size: 60px;
+    font-weight: bold;
+}
+.pricing__month{
+    margin-top: 30px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #6c757d;
+}
+.pricing__free{
+    color: #6c757d;
+    font-size: 15px;
+    font-weight: bold;
+}
+.muted__list{
+    display: flex;
+    line-height: 35px;
+}
+#pricing__font{
+    margin-top: 13px;
+    margin-right:7px ;
+    font-size: 10px;
+    color: rgba(13, 110, 253,1);
+}
+#pricing__font__muted{
+    margin-top: 13px;
+    margin-right:7px ;
+    font-size: 10px;
+    color: #6c757d;
+}
+.pricing__butn{
+    margin-top: 20px;
+    max-width: 230px;
+    border: 1px solid rgba(13, 110, 253,1) ;
+    border-radius: 7px;
+    color: rgba(13, 110, 253,1);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+  
+}
+.pricing__butn:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(13, 110, 253,1) ;
+    transition: 0.2s;
+}
+#pricing__star{
+    color: rgba(255,193,7,1);
+}
+.pricing__card__heading2{
+    display: flex;
+    gap: 5px;
+}
+.pricing__pro{
+    font-weight: bold;
+}
+.diff__text{
+    font-weight: bold;
+    font-size: 17px;
+}
+.pricing__butn__dif{
+    color: white;
+    background-color: rgba(13, 110, 253,1);
+    margin-top: 20px;
+    max-width: 230px;
+    border: 1px solid rgba(13, 110, 253,1) ;
+    border-radius: 7px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.pricing__butn__dif:hover{
+    cursor: pointer;
+    color: white;
+    background-color:#0b5ed7 ;
+    transition: 0.2s;
+}
+.muted__text{
+    font-size: 17px;
+}
+.normal__text{
+    font-size: 17px; 
+}
+@media only screen and (max-width: 1199px){
+    .pricing__card__inside{
+        max-width: 400px;
+        width: 400px;
+        padding: 40px 0px 40px 60px;
+       
+        }
+        .pricing__card{
+            margin-bottom: 20px;
+            margin-top: 40px;
+            max-width: 900px;
+            width: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+}
+@media only screen and (max-width: 991px){
+    .pricing__card{
+        margin-bottom: 20px;
+        margin-top: 40px;
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .pricing__card__inside{
+        max-width: 600px;
+        width: 100%;
+        padding: 40px 0px 40px 60px;
+       
+        }
+        .pricing__butn__dif{
+            max-width: 490px;
+        }
+        .pricing__butn{
+            max-width: 490px;
+        }
+}
+@media only screen and (max-width: 767px){
+    .pricing__card{
+        margin-bottom: 20px;
+        margin-top: 40px;
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .pricing__card__inside{
+        max-width: 400px;
+        width: 100%;
+        padding: 40px 0px 40px 60px;
+       
+        }
+        .pricing__butn__dif{
+            max-width: 300px;
+        }
+        .pricing__butn{
+            max-width: 310px;
+        }
+}
+@media only screen and (max-width: 575px){
+    .pricing__card{
+        margin-bottom: 20px;
+        margin-top: 40px;
+        max-width: 900px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+        min-height: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pricing__card__inside{
+        max-width: 400px;
+        width: 100%;
+        padding: 40px 0px 40px 60px; 
+        min-height: 100%;
+}
+.pricing__butn__dif{
+    max-width: 300px;
+    margin-right: 20px;
+}
+.pricing__butn{
+    max-width: 310px;
+    margin-right: 20px;
+}
+}

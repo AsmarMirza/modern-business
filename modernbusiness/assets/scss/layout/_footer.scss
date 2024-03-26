@@ -1,0 +1,37 @@
+.footer{
+    width:100% ;
+    max-width: 100%;
+    background-color: rgba(33, 37 ,41, 1);
+    height: 70px;
+    justify-content: center;
+    
+   
+}
+.website{
+    max-width: 100%;
+    padding: 30px 100px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 14.5px;
+}
+
+.footer__right{
+    display: flex;
+    gap: 10px;
+}
+.points{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 575px){
+    .website{
+        flex-direction: column;
+        gap: 10px;
+    } 
+    .footer{
+        min-height: 80px;
+        height: 100%;
+    }
+}
